@@ -239,18 +239,38 @@ int main() {
 
 //#include <iostream>	
 //using namespace std;
-//int valor,pos,aux;
+//struct pila {
+//    int items[10];
+//    int tope;
+//};
+//int valor,pos,n;
 //int main() 
 //{
-//	int pila[5] = {1,2,3,4,5};
-//	cout << "Ingrese el valor ";
+//    pila p;
+//    cout << "cantidad de valores a ingresar a la pila\n";
+//    cin >> n;
+//    p.tope = n-1;
+//    for (int i = 0; i <= p.tope;i++) {
+//        cout << "Valor a ingresar\n";
+//        cin >> valor;
+//        p.items[i] = valor;
+//    };
+//    cout << "pila actual:\n";
+//    for (int i = 0; i <= p.tope; i++) {
+//        cout << p.items[i]<<" ";
+//    
+//    };
+//    cout << endl;
+//	cout << "Ingrese el valor que se añadira a la pila ";
 //	cin >> valor;
-//	cout << "Ingrese la posicion ";
+//	cout << "Ingrese la posicion: ";
 //	cin >> pos;
-//	pila[pos]= valor;
-//	for (int i = 0; i < 5; i++)
+//	p.items[pos]= valor;
+//
+//    cout << "pila con el valor insertado \n";
+//	for (int i = 0; i <= p.tope; i++)
 //	{
-//		cout << pila[i] << " ";
+//		cout << p.items[i] << " ";
 //	}
 //	
 //}
@@ -477,3 +497,12 @@ int main() {
     return 0;
 }
 */
+
+/*
+//-> insertar en una posicion determianda de la pila
+
+#include <iostream>
+using namespace std;
+struct pila {
+    int items[10];
+};*/
